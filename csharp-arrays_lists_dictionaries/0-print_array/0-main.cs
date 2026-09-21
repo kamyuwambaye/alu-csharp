@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        int?[] newArray;
+        int[] newArray;
 
         newArray = Array.CreatePrint(10);
         Console.WriteLine("Array Length: " + newArray.Length);
