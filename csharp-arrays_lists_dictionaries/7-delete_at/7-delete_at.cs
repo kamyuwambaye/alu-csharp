@@ -19,6 +19,8 @@ class List
                 result.Add(myList[i]);
             }
         }
-        return result;
+        myList.Clear();
+        myList.AddRange(result);
+        return myList;
     }
 }
